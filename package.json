@@ -1,0 +1,44 @@
+{
+    "name": "cloudflare-background-paths",
+    "version": "1.0.0",
+    "description": "A beautiful background paths animation using Next.js and Framer Motion",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "eslint .",
+      "test": "jest"
+    },
+    "keywords": [
+      "nextjs",
+      "framer-motion",
+      "animation",
+      "cloudflare"
+    ],
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+      "next": "latest",
+      "react": "latest",
+      "react-dom": "latest",
+      "framer-motion": "latest",
+      "clsx": "latest",
+      "tailwindcss": "latest",
+      "tailwind-merge": "latest",
+      "class-variance-authority": "latest",
+      "@radix-ui/react-slot": "latest"
+    },
+    "devDependencies": {
+      "eslint": "latest",
+      "jest": "latest",
+      "babel-jest": "latest"
+    },
+    "eslintConfig": {
+      "extends": "next/core-web-vitals"
+    },
+    "browserslist": [
+      "defaults",
+      "not IE 11"
+    ]
+  }
